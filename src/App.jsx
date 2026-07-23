@@ -1,4 +1,4 @@
-import './styles.css';
+import './global.css';
 
 import { Post } from './Post';
 import { Header } from './components/Header';
