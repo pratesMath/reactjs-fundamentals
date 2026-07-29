@@ -23,8 +23,12 @@ export function Post() {
       <div className={styles.content}>
         <p>Fala galera 👋</p>
         <p>Acabei de subir mais um projeto no meu portifólio 🚀</p>
-        <p>👉<a href="#">john.doe/design</a></p>
-        <p><a href="#">#novoprojeto #react #frontend</a></p>
+        <p><a href="">john.doe/design</a></p>
+        <p>
+          <a href="">#novoprojeto</a>{' '}
+          <a href="">#react</a>{' '}
+          <a href="">#frontend</a>
+        </p>
       </div>
     </article>
   )
