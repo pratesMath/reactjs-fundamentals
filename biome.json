@@ -30,8 +30,12 @@
 		"enabled": true,
 		"rules": {
 			"recommended": true,
+			"a11y": {
+				"useValidAnchor": "off",
+			},
 			"suspicious": {
-				"noExplicitAny": "off"
+				"noExplicitAny": "off",
+				"useIterableCallbackReturn": "off",
 			},
 			"complexity": {
 				"noStaticOnlyClass": "off",
